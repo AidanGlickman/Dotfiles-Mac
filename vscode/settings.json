@@ -1,1 +1,99 @@
-/Users/aidan/Library/Application Support/Code/User/settings.json
+{
+    "workbench.colorTheme": "Nord",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.formatOnSave": true,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'MesloLGS NF'",
+    "terminal.integrated.fontSize": 14,
+    "gitlens.defaultDateStyle": "absolute",
+    "gitlens.defaultDateFormat": "YYYY MMM D hh:mm",
+    "terminal.external.osxExec": "iTerm.app",
+    "git.autofetch": true,
+    "python.linting.enabled": true,
+    "[python]": {},
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "git.enableSmartCommit": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "r.bracketedPaste": true,
+    "python.languageServer": "Pylance",
+    "python.pythonPath": "/usr/local/bin/python3",
+    "editor.tabSize": 2,
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "go.useLanguageServer": true,
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "better-comments.tags": [
+
+        {
+            "tag": "!",
+            "color": "#BF616A",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#81A1C1",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#616E88",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#D08770",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#A3BE8C",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "bracket-pair-colorizer-2.colors": [
+        "#EBCB8B",
+        "#B48EAD",
+        "#88C0D0",
+        "#A3BE8C"
+    ],
+    "indentRainbow.colors": [
+        "rgba(235,203,139,0.1)",
+        "rgba(163,190,140,0.1)",
+        "rgba(180,142,173,0.1)",
+        "rgba(136,192,208,0.1)"
+    ],
+    "window.zoomLevel": 0,
+    "eslint.lintTask.enable": true,
+}
