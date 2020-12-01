@@ -3,7 +3,7 @@ Dotfiles for my development environment on MacOS (With Apple Silicon). I keep my
 
 Everything is [Nord](https://www.nordtheme.com)ified for a cohesive experience.
 
-An overview of this environment and [the development experience on Apple Silicon](https://www.youtube.com/watch?v=WIgOe95P-nI&lc=Ugxupc93CpcOKS2VrSt4AaABAg) is available on [my YouTube channel](https://www.youtube.com/channel/UC4sLvmZVtLhQag4DVqgPQmw)
+An [overview of this environment](https://www.youtube.com/watch?v=qw2dEroqFSs&feature=youtu.be) and [the development experience on Apple Silicon](https://www.youtube.com/watch?v=WIgOe95P-nI&lc=Ugxupc93CpcOKS2VrSt4AaABAg) is available on [my YouTube channel](https://www.youtube.com/channel/UC4sLvmZVtLhQag4DVqgPQmw)
 
 ## Terminal
 You can use my terminal dotfiles by running the [`install_term.sh`](./terminal/install_term.sh) script and then cloning [`p10k.zsh`](./terminal/p10k.zsh) and [`.zshrc`](./terminal/.zshrc) to their corresponding places in your home directory. If you are planning on using my p10k config instead of running `p10k configure` to generate your own, then you will need to install [MesloLGS NF](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k).
