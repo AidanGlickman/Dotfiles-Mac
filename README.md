@@ -8,7 +8,7 @@ An overview of this environment and [the development experience on Apple Silicon
 ## Iterm2
 You can use my Iterm2 Dotfiles (Configured for an Apple Silicon Mac to have both a native and a Rosetta shell) by opening Iterm2, and going to 
 
-`Preferences > General > Preferences`, enabling "Load preferences from a custom folder or URL" and pointing it to `https://raw.githubusercontent.com/AidanGlickman/Dotfiles-Mac/master/com.googlecode.iterm2.plist`. You could also just download the file or clone the repo and do it with the file you get from that.
+`Preferences > General > Preferences`, enabling "Load preferences from a custom folder or URL" and pointing it to `https://raw.githubusercontent.com/AidanGlickman/Dotfiles-Mac/master/iterm/com.googlecode.iterm2.plist`. You could also just download the file or clone the repo and do it with the file you get from that.
 
 ## VSCode
 
