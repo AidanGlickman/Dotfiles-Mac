@@ -27,7 +27,6 @@
     "r.bracketedPaste": true,
     "python.languageServer": "Pylance",
     "python.pythonPath": "/usr/local/bin/python3",
-    "editor.tabSize": 2,
     "eslint.alwaysShowStatus": true,
     "eslint.format.enable": true,
     "go.useLanguageServer": true,
@@ -94,6 +93,9 @@
         "rgba(180,142,173,0.1)",
         "rgba(136,192,208,0.1)"
     ],
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 2,
     "eslint.lintTask.enable": true,
+    "markdown.extension.math.enabled": false,
+    "markdown.extension.orderedList.marker": "one",
+    "markdown.extension.print.absoluteImgPath": false,
 }
