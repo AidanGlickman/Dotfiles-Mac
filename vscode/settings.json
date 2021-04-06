@@ -34,7 +34,6 @@
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "better-comments.tags": [
-
         {
             "tag": "!",
             "color": "#BF616A",
@@ -93,9 +92,44 @@
         "rgba(180,142,173,0.1)",
         "rgba(136,192,208,0.1)"
     ],
-    "window.zoomLevel": 2,
     "eslint.lintTask.enable": true,
     "markdown.extension.math.enabled": false,
     "markdown.extension.orderedList.marker": "one",
     "markdown.extension.print.absoluteImgPath": false,
+    "terminal.integrated.inheritEnv": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.outDir": "%DIR%/out",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.external.build.args": [
+        "-shell-escape"
+    ],
+    "latex-workshop.latex.magic.args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-shell-escape",
+        "%DOC%"
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-shell-escape",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        }
+    ],
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
 }

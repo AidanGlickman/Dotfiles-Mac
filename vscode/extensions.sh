@@ -1,10 +1,5 @@
 code --install-extension aaron-bond.better-comments
 code --install-extension arcticicestudio.nord-visual-studio-code
-code --install-extension bierner.github-markdown-preview
-code --install-extension bierner.markdown-checkbox
-code --install-extension bierner.markdown-emoji
-code --install-extension bierner.markdown-preview-github-styles
-code --install-extension bierner.markdown-yaml-preamble
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension codezombiech.gitignore
@@ -14,14 +9,19 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension eamodio.gitlens
 code --install-extension evzen-wybitul.magic-racket
 code --install-extension golang.go
+code --install-extension haskell.haskell
 code --install-extension Ikuyadeu.r
+code --install-extension James-Yu.latex-workshop
+code --install-extension justusadam.language-haskell
 code --install-extension magicstack.MagicPython
 code --install-extension mechatroner.rainbow-csv
 code --install-extension mikestead.dotenv
+code --install-extension mrob95.vscode-talonscript
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
 code --install-extension ms-toolsai.jupyter
+code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode.cpptools
 code --install-extension ms-vscode.hexeditor
 code --install-extension octref.vetur
@@ -29,6 +29,7 @@ code --install-extension oderwat.indent-rainbow
 code --install-extension redhat.java
 code --install-extension redhat.vscode-yaml
 code --install-extension REditorSupport.r-lsp
+code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension steoates.autoimport
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscjava.vscode-java-debug
@@ -36,3 +37,4 @@ code --install-extension vscjava.vscode-java-dependency
 code --install-extension vscjava.vscode-java-pack
 code --install-extension vscjava.vscode-java-test
 code --install-extension vscode-icons-team.vscode-icons
+code --install-extension yzhang.markdown-all-in-one

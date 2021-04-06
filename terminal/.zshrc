@@ -2,7 +2,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-export PATH=/opt/homebrew/bin:$HOME/bin:/usr/local/bin:$PATH
+export PATH=/opt/homebrew/bin:$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/aidan/.oh-my-zsh"
@@ -36,6 +36,7 @@ fi
 
 alias rbrew='arch -x86_64 /usr/local/bin/brew'
 
+PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/Users/aidan/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -51,3 +52,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+[ -f "/Users/aidan/.ghcup/env" ] && source "/Users/aidan/.ghcup/env" # ghcup-env
