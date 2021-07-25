@@ -22,6 +22,7 @@ code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
 code --install-extension ms-toolsai.jupyter
 code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode.cmake-tools
 code --install-extension ms-vscode.cpptools
 code --install-extension ms-vscode.hexeditor
 code --install-extension octref.vetur
@@ -31,6 +32,7 @@ code --install-extension redhat.vscode-yaml
 code --install-extension REditorSupport.r-lsp
 code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension steoates.autoimport
+code --install-extension twxs.cmake
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscjava.vscode-java-debug
 code --install-extension vscjava.vscode-java-dependency
