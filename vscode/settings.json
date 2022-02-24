@@ -1,121 +1,66 @@
 {
-    "workbench.colorTheme": "Nord",
     "workbench.iconTheme": "vscode-icons",
-    "editor.formatOnSave": true,
-    "editor.fontSize": 14,
-    "editor.fontFamily": "'MesloLGS NF'",
-    "terminal.integrated.fontSize": 14,
-    "gitlens.defaultDateStyle": "absolute",
-    "gitlens.defaultDateFormat": "YYYY MMM D hh:mm",
-    "terminal.external.osxExec": "iTerm.app",
-    "git.autofetch": true,
-    "python.linting.enabled": true,
-    "[python]": {},
+    "workbench.colorTheme": "Nord",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c17",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
+    "terminal.integrated.fontFamily": "'MesloLGS NF'",
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "clang-format.fallbackStyle": "Google",
+    "[python]": {
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],
+        "editor.wordBasedSuggestions": false
     },
-    "git.enableSmartCommit": true,
-    "[javascript]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "r.bracketedPaste": true,
-    "python.languageServer": "Pylance",
-    "python.pythonPath": "/usr/local/bin/python3",
-    "eslint.alwaysShowStatus": true,
+    "debug.onTaskErrors": "debugAnyway",
+    "go.toolsManagement.autoUpdate": true,
+    "editor.bracketPairColorization.enabled": true,
+    "indentRainbow.colorOnWhiteSpaceOnly": true,
     "eslint.format.enable": true,
-    "go.useLanguageServer": true,
-    "[c]": {
-        "editor.defaultFormatter": "ms-vscode.cpptools"
-    },
-    "better-comments.tags": [
-        {
-            "tag": "!",
-            "color": "#BF616A",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "?",
-            "color": "#81A1C1",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "//",
-            "color": "#616E88",
-            "strikethrough": true,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "todo",
-            "color": "#D08770",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        },
-        {
-            "tag": "*",
-            "color": "#A3BE8C",
-            "strikethrough": false,
-            "underline": false,
-            "backgroundColor": "transparent",
-            "bold": false,
-            "italic": false
-        }
-    ],
-    "bracket-pair-colorizer-2.colors": [
-        "#EBCB8B",
-        "#B48EAD",
-        "#88C0D0",
-        "#A3BE8C"
-    ],
-    "indentRainbow.colors": [
-        "rgba(235,203,139,0.1)",
-        "rgba(163,190,140,0.1)",
-        "rgba(180,142,173,0.1)",
-        "rgba(136,192,208,0.1)"
-    ],
     "eslint.lintTask.enable": true,
-    "markdown.extension.math.enabled": false,
-    "markdown.extension.orderedList.marker": "one",
-    "markdown.extension.print.absoluteImgPath": false,
-    "terminal.integrated.inheritEnv": false,
+    "editor.formatOnSave": true,
+    "markdown.extension.tableFormatter.normalizeIndentation": true,
+    "editor.inlineSuggest.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.enable": {
+        "*": false,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "cpp": false
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "redhat.telemetry.enabled": true,
+    "vsicons.dontShowNewVersionMessage": true,
     "latex-workshop.view.pdf.viewer": "tab",
-    "latex-workshop.latex.outDir": "%DIR%/out",
-    "latex-workshop.latex.autoClean.run": "onBuilt",
-    "latex-workshop.latex.external.build.args": [
-        "-shell-escape"
-    ],
-    "latex-workshop.latex.magic.args": [
-        "-synctex=1",
-        "-interaction=nonstopmode",
-        "-file-line-error",
-        "-shell-escape",
-        "%DOC%"
-    ],
+    "window.zoomLevel": 1,
+    "latex-workshop.chktex.path": "/Library/TeX/texbin/chktex",
+    "latex-workshop.latexindent.path": "/Library/TeX/texbin/latexindent",
+    "latex-workshop.synctex.path": "/Library/TeX/texbin/synctex",
+    "latex-workshop.texcount.path": "/Library/TeX/texbin/texcount",
+    "latex-workshop.texdoc.path": "/Library/TeX/texbin/texdoc",
+    "latex-workshop.latex.clean.command": "/Library/TeX/texbin/latexmk",
+    "latex-workshop.latex.outDir": "%DIR%",
+    "latex-workshop.chktex.enabled": true,
     "latex-workshop.latex.tools": [
         {
             "name": "latexmk",
             "command": "latexmk",
             "args": [
-                "-shell-escape",
+                "--shell-escape", // added this flag
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
@@ -124,10 +69,27 @@
                 "%DOC%"
             ],
             "env": {}
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "--shell-escape", // added this flag
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
         }
     ],
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
-    },
-    "vsicons.dontShowNewVersionMessage": true
+    "latex-workshop.latex.autoClean.run": "onBuilt",
 }

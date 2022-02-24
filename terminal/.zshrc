@@ -7,6 +7,7 @@ export PATH=/opt/homebrew/bin:$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/aidan/.oh-my-zsh"
 
+# eval "$(starship init zsh)"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 HYPHEN_INSENSITIVE="true"
@@ -35,6 +36,7 @@ fi
 
 
 alias rbrew='arch -x86_64 /usr/local/bin/brew'
+alias brew='arch -arm64 brew'
 
 PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"
 # >>> conda initialize >>>
